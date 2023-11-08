@@ -4,17 +4,13 @@ import "fmt"
 
 func main() {
 
-	var number1, number2 float64
+	var expression string
 	var operator string
+	var number1 int8
+	var number2 int8
 
-	fmt.Print("Enter the first number : ")
-	fmt.Scanln(&number1)
-
-	fmt.Print("Enter the second number : ")
-	fmt.Scanln(&number2)
-
-	fmt.Print("Enter the operator ( + - * / ) : ")
-	fmt.Scanln(&operator)
+	fmt.Print("Enter expression : ")
+	fmt.Scanln(&expression)
 
 	switch operator {
 
